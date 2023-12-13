@@ -1,0 +1,192 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../Images/background_photo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    color: #a99494;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+section {
+    text-align: center; /* Center-align the content */
+    background-color: rgba(188, 142, 142, 0.2); /* Gray transparent background (maroon color with alpha transparency) */
+    color: #3f0707; /* Maroon text color */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    max-width: 600px; /* Limit the width for better readability on larger screens */
+    margin: 0 auto; /* Center the section by setting left and right margin to auto */
+    line-height: 2;
+}
+
+.section2 {    
+    text-align: center; /* Center-align the content */
+    background-color: rgba(188, 142, 142, 0.2); /* Gray transparent background (maroon color with alpha transparency) */
+    color: #ffffff; /* Maroon text color */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    max-width: 600px; /* Limit the width for better readability on larger screens */
+    margin: 0 auto; /* Center the section by setting left and right margin to auto */
+    line-height: 2;
+
+}
+
+/* Style the strong tag inside the list item */
+ol li strong {
+    color: #fff; /* Make the text inside <strong> white for better contrast */
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ul {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+/* Add margin to list items for better spacing between them */
+li {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.pagetop {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.logo-container {
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+}
+
+.logo {
+    width: 250px; 
+    height: auto; 
+}
+
+.tableauthing {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.tableausize {
+    width: 250px;
+    height: auto;
+}
+
+/* .tableauPlaceholder {
+    position: fixed;
+    top: auto;
+    right: auto; */
+
+
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #814747;
+    color: #757474;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #814747;
+    color: #757474;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: #814747;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  p {
+    line-height: 1.6;
+    margin-bottom: 1.2em;
+  }
+
+  .hobbies-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  .hobby-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  .hobby-text {
+    flex: 1;
+  }
+
+  @media (max-width: 600px) {
+    section {
+      padding: 1em;
+    }
+  } */
